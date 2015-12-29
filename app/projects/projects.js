@@ -3,7 +3,5 @@
   "use strict";
 
   angular
-  .module("projects", [
-    'ngResource'
-  ]);
-}());
+  .module("projects", []);
+})();
