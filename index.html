@@ -8,13 +8,26 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-resource.min.js"></script>
 
+<link href="styles/styles.css" rel="stylesheet">
+ <link href="styles/bootstrap.css" rel="stylesheet">
 
- <script src="app/app.js"></script>
- <script src='app/projects/projects.js'></script>
- <script src='app/projects/index.controller.js'></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <script src="js/app.js"></script>
+ <script src='js/projects/projects.js'></script>
+ <script src='js/projects/index.controller.js'></script>
 
 </head>
 <body>
+  <div class="jumbotron">
+  <h1>Alex Screven</h1>
+  <ul class="nav nav-pills nav-justified">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Work</a></li>
+    <li role="presentation"><a href="#">About</a></li>
+    <li role="presentation"><a href="#">Contact</a></li>
+  </ul>
+</div>
   <h1><a data-ui-sref="home">Home</a></h1>
   <main data-ui-view></main>
 </body>
