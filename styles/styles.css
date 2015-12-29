@@ -1,4 +1,4 @@
-.jumbotron {
+#index-banner {
   background-image: url('images/mountains.jpeg');
   /*background-position: center;*/
   background-position: 45% 52%;
@@ -22,4 +22,17 @@
 }
 .nav {
   opacity: .6;
+}
+#section-header{
+  color:#746e93;
+}
+
+#about_me_section{
+  color:#6C8E87;
+}
+
+#profile_image{
+  /*-webkit-filter: brightness(0.92);*/
+  /*filter: brightness(1);*/
+  border: 2rem solid #97708a;
 }

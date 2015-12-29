@@ -8,8 +8,13 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-resource.min.js"></script>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script type="text/javascript" src="styles/materialize.min.js"></script>
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="styles/materialize.min.css" rel="stylesheet">
 <link href="styles/styles.css" rel="stylesheet">
- <link href="styles/bootstrap.css" rel="stylesheet">
+
+ <!-- <link href="styles/bootstrap.css" rel="stylesheet"> -->
 
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,16 +24,29 @@
 
 </head>
 <body>
-  <div class="jumbotron">
-  <h1>Alex Screven</h1>
-  <ul class="nav nav-pills nav-justified">
-    <li role="presentation" class="active"><a href="#">Home</a></li>
-    <li role="presentation"><a href="#">Work</a></li>
-    <li role="presentation"><a href="#">About</a></li>
-    <li role="presentation"><a href="#">Contact</a></li>
-  </ul>
+  <div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br>
+      <br>
+      <h1 class="header center text-lighten-2">Alex Screven</h1>
+      <!-- <div class="row center">
+        <h5 class="header col s12 light">All your GA resources in one place</h5>
+      </div> -->
+    </div>
+  </div>
 </div>
-  <h1><a data-ui-sref="home">Home</a></h1>
+  <!-- <div class="jumbotron"> -->
+  <!-- <h1>Alex Screven</h1> -->
+  <!-- <ul class="nav nav-pills nav-justified"> -->
+    <li role="presentation"><a data-ui-sref="home">Home</a></li>
+    <li role="presentation"><a data-ui-sref="projectIndex">Projects</a></li>
+    <!-- <li role="presentation"><a href="#">Work</a></li> -->
+    <!-- <li role="presentation"><a href="#">About</a></li> -->
+    <!-- <li role="presentation"><a href="#">Contact</a></li> -->
+  <!-- </ul> -->
+<!-- </div> -->
+
   <main data-ui-view></main>
 </body>
 </html>
