@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 #index-banner {
   background-image: url('images/mountains.jpeg');
   background-position: 45% 52%;
@@ -18,24 +19,6 @@
   border: 1.5rem solid rgba(84, 110, 122, .6);
 }
 
-
-/*#nav-mobile > li > a:hover,
-#nav-mobile > li > a:focus {
-  text-decoration: underline;
-  background-color: #eee;
-}
-#nav-mobile > li.active > a,
-#nav-mobile > li.active > a:hover,
-#nav-mobile > li.active > a:focus {
-  color: black;
-  background-color: #003399;
-  text-decoration: underline;
-}
-
-.nav-wrapper{
-  opacity: 0.6;
-  background-color: #003399;
-}*/
 
 #section-header{
   color:#746e93;
