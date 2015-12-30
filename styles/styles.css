@@ -1,38 +1,46 @@
 #index-banner {
   background-image: url('images/mountains.jpeg');
-  /*background-position: center;*/
   background-position: 45% 52%;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: Papyrus,fantasy;
+  width: 100%;
+  font-family: 'Abril Fatface', cursive;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
+.tilt {
+  -webkit-transform: rotate(7.5deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(7.5deg);  /* IE 9 */
+        transform: rotate(7.5deg);
+}
+
+#profile_image{
+  border: 1.5rem solid rgba(84, 110, 122, .6);
+}
+
+
+/*#nav-mobile > li > a:hover,
+#nav-mobile > li > a:focus {
+  text-decoration: underline;
   background-color: #eee;
 }
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+#nav-mobile > li.active > a,
+#nav-mobile > li.active > a:hover,
+#nav-mobile > li.active > a:focus {
   color: black;
   background-color: #003399;
   text-decoration: underline;
 }
-.nav {
-  opacity: .6;
-}
+
+.nav-wrapper{
+  opacity: 0.6;
+  background-color: #003399;
+}*/
+
 #section-header{
   color:#746e93;
 }
 
 #about_me_section{
   color:#6C8E87;
-}
-
-#profile_image{
-  /*-webkit-filter: brightness(0.92);*/
-  /*filter: brightness(1);*/
-  border: 2rem solid #97708a;
 }
