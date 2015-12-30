@@ -1,3 +1,37 @@
 <div ng-repeat='project in projectsViewModel.projects'>
-  <p>{{project}}</p>
+  <!-- <h3>{{project.title}}</h2>
+  <p>{{project.description}}</p> -->
+
+<div class='container' id='topicContainer'>
+
+  <div class="row col s12 card activator" id="topicCard">
+    <div id='color-one' class='center'>
+      <div class="card-image">
+        <img class='card-image activator responsive-img' src="{{project.imageUrl}}">
+      </div>
+      <div class='card-content topic-description activator'>
+        <h3 class="card-title text-darken-4">{{project.title}}: </h3>
+        <p class='indigo-text '>{{project.description}}</p></br>
+      </div>
+    </div>
+
+    <div class="card-reveal  brown lighten-4 collection">
+
+      <span class="card-title center grey-text text-darken-4">{{project.title}}<i class="material-icons right">close</i></span>
+      <!-- <div id="link-items"> -->
+      <!-- {{#each links}} -->
+      <!-- <a href="{{url}}" class="indigo-text text-darken-4 collection-item"> -->
+        <!-- <strong>{{title}}: </strong> -->
+        <!-- {{summary}}</a> -->
+        <!-- {{/each}} -->
+      </div>
+      <!-- </ul> -->
+
+      <!-- <div class='center add-link'> -->
+        <!-- <a href="/topics/{{_id}}" class="btn submit hoverable" type="submit" name="action" id="view-topic">View Topic<i class="right material-icons">call_made</i></a> -->
+        <!-- <a href="/topics/{{_id}}#new-link" class="btn submit hoverable" type="submit" name="action">Add Link <i class="right material-icons">add</i></a> -->
+      <!-- </div> -->
+    </div>
+  </div>
+
 </div>
