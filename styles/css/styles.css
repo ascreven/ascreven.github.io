@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 #index-banner {
-  background-image: url('images/mountains.jpeg');
+  background-image: url('../images/mountains.jpeg');
   background-position: 45% 52%;
   background-size: 100%;
   background-repeat: no-repeat;
