@@ -23,27 +23,40 @@
 
 </head>
 <body>
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+  <div id="index-banner" class="container">
+    <div class="section">
       <div class="container">
-        <h1 class="header center text-lighten-2">Alex Screven</h1>
-        <div class="row center">
-        <h5 class="header col s12 light">Front-End Developer</h5>
+        <h1 class="header center blue-grey-text text-darken-4" id='name'>Alex Screven</h1>
+        <div class="row valign-wrapper">
+          <div class='col s4 tilt'>
+            <img src='styles/images/linkedin.jpg' class='responsive-img z-depth-3 valign' id='profile_image' alt="Responsive profile image"></img>
+          </div>
+          <div>
+            <h4 class='indigo-text text-darken-4 col s8 push-s3' id='econ_to_dev'>Economic Analyst Turned Front-End Developer</h4>
+          </div>
+        </div>
       </div>
+      <nav class='transparent'>
+        <div class="nav-wrapper container right z-depth-5">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="hide-on-med-and-down">
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' data-ui-sref="home">Home</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' data-ui-sref="projectIndex">Projects</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' href="#">Work</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' href="#">About</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' href="#">Contact</a></li>
+          </ul>
+          <ul class="side-nav blue-grey darken-3" id="mobile-demo">
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' data-ui-sref="home">Home</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' data-ui-sref="projectIndex">Projects</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' href="#">Work</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' href="#">About</a></li>
+            <li role="presentation"><a class='deep-purple-text text-lighten-4' href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
-</div>
-
-<!-- <div class="jumbotron"> -->
-<!-- <h1>Alex Screven</h1> -->
-<!-- <ul class="nav nav-pills nav-justified"> -->
-<li role="presentation"><a data-ui-sref="home">Home</a></li>
-<li role="presentation"><a data-ui-sref="projectIndex">Projects</a></li>
-<!-- <li role="presentation"><a href="#">Work</a></li> -->
-<!-- <li role="presentation"><a href="#">About</a></li> -->
-<!-- <li role="presentation"><a href="#">Contact</a></li> -->
-<!-- </ul> -->
-<!-- </div> -->
 
 <main data-ui-view></main>
 </body>
