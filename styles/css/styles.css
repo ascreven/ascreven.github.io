@@ -1,3 +1,7 @@
+body{
+  background-color: #AAA4AF;
+}
+
 #index-banner {
   background-image: url('../images/mountains.jpeg');
   background-position: 45% 52%;
@@ -5,9 +9,13 @@
   background-repeat: no-repeat;
   text-align: center;
   width: 100%;
-  font-family: 'Abril Fatface', cursive;
+	font-family: Verdana, Geneva, sans-serif;
+  color: white;
 }
 
+#econ_to_dev {
+  padding-top: 4rem;
+}
 .tilt {
   -webkit-transform: rotate(7.5deg);  /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: rotate(7.5deg);  /* IE 9 */
@@ -18,11 +26,40 @@
   border: 1.5rem solid rgba(84, 110, 122, .6);
 }
 
-
 #section-header{
   color:#746e93;
 }
 
 #about_me_section{
   color:#6C8E87;
+}
+
+.card-image{
+  height: 200px;
+  width: inherit;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #5c6170;
+  border: 3px solid #262b38;
+}
+
+#reveal-color{
+  background-color: #898A8D;
+}
+
+#reveal-description{
+  color: #ddd2db;
+}
+.mountain_pink{
+  color: #cac0c8;
+}
+
+.mountain_grey{
+  color: #262b38;
+}
+
+#underline{
+  text-decoration: underline;
 }

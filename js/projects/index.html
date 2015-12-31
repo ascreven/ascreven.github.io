@@ -1,33 +1,19 @@
+<div class='row'>
 <div ng-repeat='project in projectsViewModel.projects'>
-<div class='container' id='topicContainer'>
-  <div class="row col s12 card activator" id="topicCard">
-    <div id='color-one' class='center'>
-      <div class="card-image">
-        <img class='card-image activator responsive-img' ng-src="{{project.imageUrl}}">
+          <div class="push-s1 col s5">
+    <div class='card z-depth-5'>
+          <div class="card-image waves-effect waves-block waves-light">
+        <img class='activator' ng-src="{{project.imageUrl}}">
       </div>
-      <div class='card-content topic-description activator'>
-        <h3 class="card-title text-darken-4">{{project.title}}: </h3>
-        <p class='indigo-text '>{{project.description}}</p></br>
-      </div>
-    </div>
-
-    <div class="card-reveal  brown lighten-4 collection">
-
-      <span class="card-title center grey-text text-darken-4">{{project.title}}<i class="material-icons right">close</i></span>
-      <!-- <div id="link-items"> -->
-      <!-- {{#each links}} -->
-      <!-- <a href="{{url}}" class="indigo-text text-darken-4 collection-item"> -->
-        <!-- <strong>{{title}}: </strong> -->
-        <!-- {{summary}}</a> -->
-        <!-- {{/each}} -->
-      </div>
-      <!-- </ul> -->
-
-      <!-- <div class='center add-link'> -->
-        <!-- <a href="/topics/{{_id}}" class="btn submit hoverable" type="submit" name="action" id="view-topic">View Topic<i class="right material-icons">call_made</i></a> -->
-        <!-- <a href="/topics/{{_id}}#new-link" class="btn submit hoverable" type="submit" name="action">Add Link <i class="right material-icons">add</i></a> -->
-      <!-- </div> -->
-    </div>
+      <div class='card-content'>
+        <span class="card-title activator mountain_pink">{{project.title}}<i class="material-icons right">more_vert</i></span>
+         <p><a class='mountain_grey' href="#">This is a link</a></p>
+       </div>
+       <div class="card-reveal" id='reveal-color'>
+         <span class="card-title mountain_grey center-align" id='underline'>{{project.title}}<i class="material-icons right">close</i></span>
+         <p class='mountain_grey'>{{project.description}}</p>
+       </div>
+     </div>
+          </div>
   </div>
-
 </div>
