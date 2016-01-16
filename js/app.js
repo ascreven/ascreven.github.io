@@ -2,7 +2,7 @@
   'use strict';
   angular
   .module('portfolio', [
-    'ui.router',
+    'ngResource',
     'projects'
   ])
   .config([
