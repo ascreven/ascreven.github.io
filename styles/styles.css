@@ -1,29 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-#index-banner {
+.jumbotron {
   background-image: url('images/mountains.jpeg');
+  /*background-position: center;*/
   background-position: 45% 52%;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
-  width: 100%;
-  font-family: 'Abril Fatface', cursive;
+  font-family: Papyrus,fantasy;
 }
 
-.tilt {
-  -webkit-transform: rotate(7.5deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(7.5deg);  /* IE 9 */
-        transform: rotate(7.5deg);
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
 }
-
-#profile_image{
-  border: 1.5rem solid rgba(84, 110, 122, .6);
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: #003399;
+  text-decoration: underline;
 }
-
-
-#section-header{
-  color:#746e93;
-}
-
-#about_me_section{
-  color:#6C8E87;
+.nav {
+  opacity: .6;
 }

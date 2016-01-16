@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Alex Screven</title>
+
+  <!-- bower dependencies -->
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.min.js"></script>
   <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
   <script src="bower_components/angular-resource/angular-resource.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-resource.min.js"></script>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="styles/materialize.min.js"></script>
 
 
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="styles/materialize.min.css" rel="stylesheet">
+<!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" ref="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link href="styles/styles.css" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +22,26 @@
   <script src='js/projects/index.controller.js'></script>
 
 </head>
+
 <body>
+  <div class="jumbotron">
+    <h1>Alex Screven</h1>
+    <ul class="nav nav-pills nav-justified">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Work</a></li>
+      <li role="presentation"><a href="#">About</a></li>
+      <li role="presentation"><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div id='about_me_section'>
+      <h4 class='lead text-center'>Why Web Development?</h4>
+      <p>I started programming by teaching myself R and Python in effort to advance my career as an economic analyst. Having always loved puzzles I immediately enjoyed what I was learning but felt like creativity was limited. A friend recommended that I start learning JavaScript because it made use of both my analytical and creative tendencies. I immediately agreed and loved it so much I left my job as an analyst to study web development full time at General Assembly. As graduation from the program creeps up I am very excited to implement and continue developing my dev skills throughout my career.</p>
+  </div>
+
+</body>
+</html>
+
+<!-- <body>
   <div id="index-banner" class="container">
     <div class="section">
       <div class="container">
@@ -64,4 +81,4 @@
 
 <main data-ui-view></main>
 </body>
-</html>
+</html> -->
