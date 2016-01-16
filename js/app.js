@@ -3,6 +3,7 @@
   angular
   .module('portfolio', [
     'ngResource',
+    'ui.router',
     'projects'
   ])
   .config([
