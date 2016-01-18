@@ -17,7 +17,7 @@
    $locationProvider.html5Mode(true);
     $stateProvider
     .state('home',{
-      url: '/',
+      url: '',
       templateUrl: 'js/home/home.html'
     })
     .state('projects',{
