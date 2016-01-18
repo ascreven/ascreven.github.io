@@ -2266,7 +2266,10 @@ table th[class*="col-"] {
 
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8; }
+  background-color: #e8
+
+
+  ; }
 
 .table > thead > tr > td.success,
 .table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
@@ -3524,7 +3527,7 @@ tbody.collapse.in {
     border-radius: 0px; }
   .nav-pills > li + li {
     margin-left: 2px; }
-  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  .nav-pills > li:active > a, .nav-pills > li:active > a:hover, .nav-pills > li:active > a:focus {
     color: #fff;
     background-color: #583A52; }
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Alex Screven</title>
-
+  <base href="http://localhost:8080/" />
   <!-- bower js dependencies -->
   <script src="libs/jquery/jquery.js"></script>
   <script src="libs/angular/angular.js"></script>
@@ -13,8 +13,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <!-- stylesheets -->
-
-  <link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="styles/styles.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +21,7 @@
   <script src="js/app.js"></script>
   <script src='js/projects/projects.js'></script>
   <script src='js/projects/index.controller.js'></script>
+  <script src='js/about/about.js'></script>
 
 </head>
 
@@ -30,9 +30,9 @@
     <h1>Alex Screven</h1>
 
     <ul class="nav nav-pills nav-justified">
-      <li role="presentation" class="active"><a data-ui-sref="home">Home</a></li>
-      <li role="presentation"><a data-ui-sref="projectIndex">Work</a></li>
-      <li role="presentation"><a href="#">About</a></li>
+      <li role="presentation"><a data-ui-sref="home">Home</a></li>
+      <li role="presentation"><a data-ui-sref="projects">Work</a></li>
+      <li role="presentation"><a href="about">About</a></li>
       <li role="presentation"><a href="#">Contact</a></li>
     </ul>
 </div>

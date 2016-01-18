@@ -1,24 +1,40 @@
+body {
+  background-color: #EEE6D9;
+}
 .jumbotron {
   background-image: url('images/mountains.jpeg');
   background-position: 45% 52%;
   background-size: 100%;
   text-align: center;
   font-family: Papyrus,fantasy;
+  color: #583A52;
 }
 
-.nav {
+.nav>li{
   font-size: 2.5vh;
+  margin-bottom: 0px;
+  background-color: #EEE6D9;
 }
-.nav > li > a:hover,
+
+li>a {
+  color: #583A52;
+}
+a:focus, a:hover {
+  text-decoration: underline;
+  color: #583A52;
+}
+
+/*.nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+  /*background-color: #eee;*/
+/*}
+.nav-pills > li:active > a,
+.nav-pills > li:active > a:hover,
+.nav-pills > li:active > a:focus {
   text-decoration: underline;
-}
+  background-color: #eee;
+}*/
 
 .nav {
   opacity: .6;
