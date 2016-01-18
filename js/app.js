@@ -8,11 +8,13 @@
   ])
   .config([
     '$stateProvider',
+    '$locationProvider',
     RouterFunction
   ]);
 
 
-  function RouterFunction($stateProvider){
+  function RouterFunction($stateProvider, $locationProvider){
+   $locationProvider.html5Mode(true);
     $stateProvider
     .state('home',{
       url: '/',
