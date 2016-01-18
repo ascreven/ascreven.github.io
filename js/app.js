@@ -21,7 +21,7 @@
       templateUrl: 'js/home/home.html'
     })
     .state('projects',{
-      url: '/work',
+      url: '/projects',
       templateUrl: 'js/work/work.html',
       controller: 'projectsController',
       controllerAs: 'projectsViewModel'
