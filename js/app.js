@@ -8,26 +8,30 @@
   ])
   .config([
     '$stateProvider',
-    '$locationProvider',
+    // '$locationProvider',
     RouterFunction
   ]);
 
-  function RouterFunction($stateProvider, $locationProvider){
-    $locationProvider.html5Mode(true);
+  function RouterFunction($stateProvider){
+    // $locationProvider.html5Mode(true);
     $stateProvider
     .state('home',{
       url: '/',
-      templateUrl: 'js/home/index.html'
+      templateUrl: 'js/home/home.html'
     })
-    .state('projects',{
-      url: '/projects',
-      templateUrl: 'js/projects/projects.html',
+    .state('work',{
+      url: '/work',
+      templateUrl: 'js/work/work.html',
       controller: 'projectsController',
       controllerAs: 'projectsViewModel'
     })
     .state('about',{
       url: '/about',
-      template: "I'm in the about page"
+      templateUrl: 'js/about/about.html'
+    })
+    .state('contact', {
+      url: '/contact',
+      templateUrl: 'js/contact/contact.html'
     });
   }
 })();

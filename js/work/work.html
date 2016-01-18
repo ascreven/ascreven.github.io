@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1>Alex Screven</h1>
+  <ul class="nav nav-pills nav-justified">
+    <li role="presentation"><a data-ui-sref="about">About</a></li>
+    <li role="presentation"><a data-ui-sref="contact">Contact</a></li>
+  </ul>
+</div>
+
+<div id='projects'>
+  <h3>My Projects</h3>
+  <div ng-repeat='project in projectsViewModel.projects'>
+    <h3 class="card-title text-darken-4">{{project.title}}: </h3>
+    <p class='indigo-text '>{{project.description}}</p>
+    <img class='card-image activator responsive-img' src="{{project.imageUrl}}">
+  </div>
+</div>
