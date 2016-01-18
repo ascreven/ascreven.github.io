@@ -19,7 +19,7 @@
       url: '/',
       templateUrl: 'js/home/home.html'
     })
-    .state('work',{
+    .state('projects',{
       url: '/work',
       templateUrl: 'js/work/work.html',
       controller: 'projectsController',
