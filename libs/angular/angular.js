@@ -6134,10 +6134,10 @@ function $CacheFactoryProvider() {
          * Retrieve information regarding a particular {@link $cacheFactory.Cache Cache}.
          *
          * @returns {object} an object with the following properties:
-         *   <ul>
-         *     <li>**id**: the id of the cache instance</li>
-         *     <li>**size**: the number of entries kept in the cache instance</li>
-         *     <li>**...**: any additional properties from the options object when creating the
+         *   <ul class='row'>
+         *     <li class='col-md-4'>**id**: the id of the cache instance</li>
+         *     <li class='col-md-4'>**size**: the number of entries kept in the cache instance</li>
+         *     <li class='col-md-4'>**...**: any additional properties from the options object when creating the
          *       cache.</li>
          *   </ul>
          */
@@ -18240,8 +18240,8 @@ function $$CookieReaderProvider() {
    <example name="$filter" module="filterExample">
      <file name="index.html">
        <div ng-controller="MainCtrl">
-        <h3>{{ originalText }}</h3>
-        <h3>{{ filteredText }}</h3>
+        <p class='section-header'>{{ originalText }}</p>
+        <p class='section-header'>{{ filteredText }}</p>
        </div>
      </file>
 
@@ -23178,7 +23178,7 @@ var ngCloakDirective = ngDirective({
  *      <label>Name: <input type="text" ng-model="settings.name"/></label>
  *      <button ng-click="settings.greet()">greet</button><br/>
  *      Contact:
- *      <ul>
+ *      <ul class='row'>
  *        <li ng-repeat="contact in settings.contacts">
  *          <select ng-model="contact.type" aria-label="Contact method" id="select_{{$index}}">
  *             <option>phone</option>
@@ -23188,7 +23188,7 @@ var ngCloakDirective = ngDirective({
  *          <button ng-click="settings.clearContact(contact)">clear</button>
  *          <button ng-click="settings.removeContact(contact)" aria-label="Remove">X</button>
  *        </li>
- *        <li><button ng-click="settings.addContact()">add</button></li>
+ *        <li class='col-md-4'><button ng-click="settings.addContact()">add</button></li>
  *     </ul>
  *    </div>
  *   </file>
@@ -23261,7 +23261,7 @@ var ngCloakDirective = ngDirective({
  *     <label>Name: <input type="text" ng-model="name"/></label>
  *     <button ng-click="greet()">greet</button><br/>
  *     Contact:
- *     <ul>
+ *     <ul class='row'>
  *       <li ng-repeat="contact in contacts">
  *         <select ng-model="contact.type" id="select_{{$index}}">
  *            <option>phone</option>
@@ -23271,7 +23271,7 @@ var ngCloakDirective = ngDirective({
  *         <button ng-click="clearContact(contact)">clear</button>
  *         <button ng-click="removeContact(contact)">X</button>
  *       </li>
- *       <li>[ <button ng-click="addContact()">add</button> ]</li>
+ *       <li class='col-md-4'>[ <button ng-click="addContact()">add</button> ]</li>
  *    </ul>
  *   </div>
  *  </file>
@@ -26223,13 +26223,13 @@ var ngOptionsMinErr = minErr('ngOptions');
           }]);
         </script>
         <div ng-controller="ExampleController">
-          <ul>
+          <ul class='row'>
             <li ng-repeat="color in colors">
               <label>Name: <input ng-model="color.name"></label>
               <label><input type="checkbox" ng-model="color.notAnOption"> Disabled?</label>
               <button ng-click="colors.splice($index, 1)" aria-label="Remove">X</button>
             </li>
-            <li>
+            <li class='col-md-4'>
               <button ng-click="colors.push({})">add</button>
             </li>
           </ul>

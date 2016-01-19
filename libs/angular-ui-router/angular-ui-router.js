@@ -4091,7 +4091,7 @@ function stateContext(el) {
  * <pre>
  * <a ui-sref="home">Home</a> | <a ui-sref="about">About</a> | <a ui-sref="{page: 2}">Next page</a>
  * 
- * <ul>
+ * <ul class='row'>
  *     <li ng-repeat="contact in contacts">
  *         <a ui-sref="contacts.detail({ id: contact.id })">{{ contact.name }}</a>
  *     </li>
@@ -4102,7 +4102,7 @@ function stateContext(el) {
  * <pre>
  * <a href="#/home" ui-sref="home">Home</a> | <a href="#/about" ui-sref="about">About</a> | <a href="#/contacts?page=2" ui-sref="{page: 2}">Next page</a>
  * 
- * <ul>
+ * <ul class='row'>
  *     <li ng-repeat="contact in contacts">
  *         <a href="#/contacts/1" ui-sref="contacts.detail({ id: contact.id })">Joe</a>
  *     </li>
@@ -4222,7 +4222,7 @@ function $StateRefDirective($state, $timeout) {
  * @example
  * Given the following template:
  * <pre>
- * <ul>
+ * <ul class='row'>
  *   <li ui-sref-active="active" class="item">
  *     <a href ui-sref="app.user({user: 'bilbobaggins'})">@bilbobaggins</a>
  *   </li>
@@ -4233,7 +4233,7 @@ function $StateRefDirective($state, $timeout) {
  * When the app state is "app.user" (or any children states), and contains the state parameter "user" with value "bilbobaggins",
  * the resulting HTML will appear as (note the 'active' class):
  * <pre>
- * <ul>
+ * <ul class='row'>
  *   <li ui-sref-active="active" class="item active">
  *     <a ui-sref="app.user({user: 'bilbobaggins'})" href="/users/bilbobaggins">@bilbobaggins</a>
  *   </li>
@@ -4245,7 +4245,7 @@ function $StateRefDirective($state, $timeout) {
  *
  * Multiple classes may be specified in a space-separated format:
  * <pre>
- * <ul>
+ * <ul class='row'>
  *   <li ui-sref-active='class1 class2 class3'>
  *     <a ui-sref="app.user">link</a>
  *   </li>

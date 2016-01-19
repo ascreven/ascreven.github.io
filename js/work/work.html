@@ -8,9 +8,9 @@
 </div>
 
 <div id='projects'>
-  <h3>My Projects</h3>
+  <p class='section-header'>My Projects</p>
   <div ng-repeat='project in projectsViewModel.projects'>
-    <h3 class="card-title text-darken-4">{{project.title}}: </h3>
+    <h3 class="card-title text-darken-4">{{project.title}}: </p>
     <p class='indigo-text '>{{project.description}}</p>
     <img class='card-image activator responsive-img' src="{{project.imageUrl}}">
   </div>
