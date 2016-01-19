@@ -4,12 +4,24 @@ body {
 .section-header{
   font-size: 4vw;
   color: #5D6B7D;
+  text-align: center;
 }
 
+.main-text {
+  color: #583A52;
+  font-size: 1.5vw;
+}
+
+.panel-title{
+  font-size: 1.9vw;
+  color: #583A52;
+}
 .past-title{
   font-size: 2.5vw;
   color: #2f2f72;
 }
+
+
 .past-desc{
   font-size: 1.75vw;
   color: #583A52;
@@ -27,9 +39,7 @@ body {
   font-size: 5.5vw;
 }
 
-.main-text {
-  color: #583A52;
-}
+
 .nav>li{
   font-size: 2.5vh;
   margin-bottom: 0px;
