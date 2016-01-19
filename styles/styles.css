@@ -31,7 +31,7 @@ body {
 }
 .section-header{
   font-size: 3.25vw;
-  color: #5D6B7D;
+  color: #384457;
   text-align: center;
   text-decoration: underline;
 }
@@ -41,6 +41,11 @@ body {
   font-size: 1.5vw;
   display: block;
   text-align: center;
+}
+
+.project-section{
+  padding-bottom: 10px;
+  border-bottom: 2px #5D6B7D  solid;
 }
 
 .project-link, .project-link:hover {

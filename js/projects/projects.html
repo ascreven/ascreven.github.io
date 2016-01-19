@@ -9,12 +9,13 @@
 
 
 <div class='container'>
-  <div ng-repeat='project in projectsViewModel.projects'>
+  <div ng-repeat='project in projectsViewModel.projects' class='project-section'>
     <p class="section-header">{{project.title}} </p>
-    <p class='main-text'>{{project.description}}</p></br>
+    <p class='main-text'>{{project.description}}</p>
     <div ng-show='{{project.url}}'>
-    <a href='{{project.url}}' class="project-link">Check out {{project.urlLink}}!</a>
-  </div>
-    <img class='img-responsive' src="{{project.imageUrl}}">
+      <a href='{{project.url}}' class="project-link center-block">Check out {{project.urlLink}}!</a>
+    </div>
+      <img class='img-responsive' src="{{project.imageUrl}}"><hr>
+</div>
 
 </div>
