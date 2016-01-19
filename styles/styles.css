@@ -6,7 +6,10 @@
   color: #583A52;
   font-size: 5.5vw;
 }
-
+p.page-title {
+  font-size: 6vw;
+  text-align: center;
+}
 
 .nav {
   opacity: .6;
@@ -22,8 +25,12 @@ li>a {
   color: #583A52;
 }
 a:focus, a:hover {
-  text-decoration: underline;
   color: #583A52;
+}
+
+#resume{
+  color: #583A52;
+  font-size: 1.5vw;
 }
 
 body {
@@ -65,4 +72,17 @@ body {
   color: #583A52;
   font-size: 1.5vw;
   display: block;
+}
+
+#home{
+  background: url('images/mountains.jpeg');
+  top: 0;
+  bottom: 0;
+  min-height: 100%;
+  position: fixed;
+  left: 0;
+  background-size: 100%;
+}
+.nav-justified{
+  width: 50%;
 }
