@@ -38,7 +38,6 @@ a:focus, a:hover {
 #res-list{
   background-color: inherit;
   padding: 0px;
-
 }
 
 body {
@@ -91,6 +90,20 @@ body {
   left: 0;
   background-size: 100%;
 }
-.nav-justified{
+
+#main-link{
+  background-color: #EEE;
   width: 50%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-radius: 5px;
+}
+.well-sm{
+  background-color: inherit;
+  border: none;
+  padding-top: 2vh;
+}
+
+.well{
+  border: none;
 }
