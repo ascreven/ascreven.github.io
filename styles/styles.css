@@ -39,7 +39,15 @@ body {
 .main-text {
   color: #583A52;
   font-size: 1.5vw;
-  display: inline-block;
+  display: block;
+  text-align: center;
+}
+
+.project-link, .project-link:hover {
+  color: #424f19;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .panel-title{
