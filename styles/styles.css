@@ -31,6 +31,14 @@ a:focus, a:hover {
 #resume{
   color: #583A52;
   font-size: 1.5vw;
+  width: 25%;
+  margin-bottom: 3vh;
+}
+
+#res-list{
+  background-color: inherit;
+  padding: 0px;
+
 }
 
 body {
