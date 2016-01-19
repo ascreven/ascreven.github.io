@@ -1,14 +1,17 @@
 <div class="jumbotron">
   <h1>Alex Screven</h1>
   <ul class="nav nav-pills nav-justified">
-    <li role="presentation"><a data-ui-sref="about">About</a></li>
-    <li role="presentation"><a data-ui-sref="projects">Projects</a></li>
-    <li role="presentation"><a data-ui-sref="contact">Contact</a></li>
+    <li role="presentation"><a class='main-text' data-ui-sref="about">About</a></li>
+    <li role="presentation"><a class='main-text' data-ui-sref="projects">Projects</a></li>
+    <li role="presentation"><a class='main-text' data-ui-sref="contact">Contact</a></li>
   </ul>
 </div>
-<p class='page-header'>Projects</p>
-<div ng-repeat='project in projectsViewModel.projects'>
-        <h3 class="card-title text-darken-4">{{project.title}}: </p>
-        <p class='indigo-text '>{{project.description}}</p>
-            <img class='card-image activator responsive-img' src="{{project.imageUrl}}">
-      </div>
+
+
+<div class='container'>
+  <div ng-repeat='project in projectsViewModel.projects'>
+    <p class="section-header">{{project.title}} </p>
+    <p class='main-text'>{{project.description}}</p>
+    <img class='img-responsive' src="{{project.imageUrl}}">
+  </div>
+</div>
