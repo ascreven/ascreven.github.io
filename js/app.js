@@ -7,13 +7,13 @@
     'projects'
   ])
   .config([
-    '$stateProvider',
     '$locationProvider',
+    '$stateProvider',
     RouterFunction
   ]);
 
 
-  function RouterFunction($stateProvider, $locationProvider){
+  function RouterFunction($locationProvider, $stateProvider){
     $locationProvider.html5Mode(true);
     $stateProvider
     .state('home',{
@@ -21,19 +21,15 @@
       templateUrl: 'js/home/home.html'
     })
     .state('projects',{
-      url: '/projects',
       templateUrl: 'js/projects/projects.html',
       controller: 'projectsController',
       controllerAs: 'projectsViewModel'
     })
     .state('about',{
-      url: '/about',
       templateUrl: 'js/about/about.html'
     })
     .state('contact', {
-      url: '/contact',
       templateUrl: 'js/contact/contact.html'
     });
-
   }
 })();
