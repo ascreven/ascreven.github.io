@@ -4,10 +4,10 @@
   background-size: 100%;
   text-align: center;
   color: #583A52;
-  font-size: 5.5vw;
+  font-size: 5.5rem;
 }
 p.page-title {
-  font-size: 6vw;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ p.page-title {
 }
 
 .nav>li{
-  font-size: 2.5vh;
+  font-size: 3rem;
   margin-bottom: 0px;
   background-color: #EEE6D9;
 }
@@ -30,9 +30,10 @@ a:focus, a:hover {
 
 #resume{
   color: #583A52;
-  font-size: 1.5vw;
-  width: 25%;
-  margin-bottom: 3vh;
+  font-size: 2rem;
+  width: 50%;
+  background-color: #EEE;
+  margin-bottom: 3vw;
 }
 
 #res-list{
@@ -44,7 +45,7 @@ body {
   background-color: #EEE6D9;
 }
 .section-header{
-  font-size: 3.25vw;
+  font-size: 3.25rem;
   color: #384457;
   text-align: center;
   text-decoration: underline;
@@ -52,7 +53,7 @@ body {
 
 .main-text {
   color: #583A52;
-  font-size: 1.5vw;
+  font-size: 2rem;
   display: block;
   text-align: center;
 }
@@ -64,20 +65,20 @@ body {
 
 .project-link, .project-link:hover {
   color: #424f19;
-  font-size: 1.5vw;
+  font-size: 2rem;
   text-align: center;
   text-decoration: underline;
 }
 
 .panel-title{
-  font-size: 1.9vw;
+  font-size: 2.5rem;
   color: #583A52;
 }
 
 .about-list{
   text-align: center;
   color: #583A52;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   display: block;
 }
 
