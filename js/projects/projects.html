@@ -12,11 +12,8 @@
   <div ng-repeat='project in projectsViewModel.projects' class='project-section'>
     <p class="section-header">{{project.title}} </p>
     <p class='main-text'>{{project.description}}</p>
-    <p class='main-text'>{{project.url}}</p>
-    <!-- <div ng-hide='{{project.url}}'>
-      <a href='{{project.url}}' class="project-link center-block">Check out {{project.urlLink}}!</a>
-    </div> -->
-      <img class='img-responsive' src="{{project.imageUrl}}"><hr>
+    <a href='{{project.url}}' class="project-link center-block">Check out {{project.title}}!</a>
+    <img class='img-responsive' src="{{project.imageUrl}}"><hr>
 </div>
 
 </div>
